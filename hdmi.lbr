@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="HDMI-MALE">
+<pad name="1" x="-4.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="2" x="-4" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="3" x="-3.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="4" x="-3" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="5" x="-2.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="6" x="-2" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="7" x="-1.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="8" x="-1" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="9" x="-0.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="10" x="0" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="11" x="0.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="12" x="1" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="13" x="1.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="14" x="2" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="15" x="2.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="16" x="3" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="17" x="3.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="18" x="4" y="-0.85" drill="0.5" diameter="0.8" shape="offset" rot="R270"/>
+<pad name="19" x="4.5" y="0.85" drill="0.5" diameter="0.8" shape="offset" rot="R90"/>
+<pad name="P3" x="-6.75" y="-1.325" drill="1.1" diameter="1.7"/>
+<pad name="P2" x="6.75" y="-1.325" drill="1.1" diameter="1.7"/>
+<pad name="P4" x="-6.75" y="1.325" drill="1.1" diameter="1.7"/>
+<pad name="P1" x="6.75" y="1.325" drill="1.1" diameter="1.7"/>
+<wire x1="-6.75" y1="2.25" x2="6.75" y2="2.25" width="0.127" layer="21"/>
+<wire x1="7" y1="0.4" x2="7" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="6.75" y1="-2.25" x2="-4" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.25" x2="-6.75" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-7" y1="-0.4" x2="-7" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-6" y1="-0.75" x2="-4.5" y2="-2" width="0.127" layer="21" curve="-42.74126"/>
+<wire x1="-4.5" y1="-2" x2="-4" y2="-2.25" width="0.127" layer="21" curve="69.222454"/>
+<wire x1="6" y1="-0.75" x2="4.5" y2="-2" width="0.127" layer="21" curve="42.74126"/>
+<wire x1="4.5" y1="-2" x2="4" y2="-2.25" width="0.127" layer="21" curve="-69.222454"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HDMI19">
+<pin name="1_TMDS_D2+" x="5.08" y="20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="2_TMDS_D2S" x="5.08" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="3_TMDS_D2-" x="5.08" y="15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="4_TMDS_D1+" x="5.08" y="12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="5_TMDS_D1S" x="5.08" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="6_TMDS_D1-" x="5.08" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="7_TMDS_D0+" x="5.08" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="8_TMDS_D0S" x="5.08" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="9_TMDS_D0-" x="5.08" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="10_TMDS_CLK+" x="5.08" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="11_TMDS_CLKS" x="5.08" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="12_TMDS_CLK-" x="5.08" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="13_CEC" x="5.08" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="14_UTILITY" x="5.08" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="15_SCL" x="5.08" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="16_SDA" x="5.08" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="17_DDC/CEC_GND" x="5.08" y="-20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="18_+5V" x="5.08" y="-22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="19_HOTPLUG" x="5.08" y="-25.4" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SHEILD">
+<pin name="S" x="5.08" y="0" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HDMI_MALE" prefix="CON">
+<gates>
+<gate name="C" symbol="HDMI19" x="0" y="2.54"/>
+<gate name="S1" symbol="SHEILD" x="25.4" y="15.24"/>
+<gate name="S2" symbol="SHEILD" x="25.4" y="12.7"/>
+<gate name="S3" symbol="SHEILD" x="25.4" y="7.62"/>
+<gate name="S4" symbol="SHEILD" x="25.4" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="HDMI-MALE">
+<connects>
+<connect gate="C" pin="10_TMDS_CLK+" pad="10"/>
+<connect gate="C" pin="11_TMDS_CLKS" pad="11"/>
+<connect gate="C" pin="12_TMDS_CLK-" pad="12"/>
+<connect gate="C" pin="13_CEC" pad="13"/>
+<connect gate="C" pin="14_UTILITY" pad="14"/>
+<connect gate="C" pin="15_SCL" pad="15"/>
+<connect gate="C" pin="16_SDA" pad="16"/>
+<connect gate="C" pin="17_DDC/CEC_GND" pad="17"/>
+<connect gate="C" pin="18_+5V" pad="18"/>
+<connect gate="C" pin="19_HOTPLUG" pad="19"/>
+<connect gate="C" pin="1_TMDS_D2+" pad="1"/>
+<connect gate="C" pin="2_TMDS_D2S" pad="2"/>
+<connect gate="C" pin="3_TMDS_D2-" pad="3"/>
+<connect gate="C" pin="4_TMDS_D1+" pad="4"/>
+<connect gate="C" pin="5_TMDS_D1S" pad="5"/>
+<connect gate="C" pin="6_TMDS_D1-" pad="6"/>
+<connect gate="C" pin="7_TMDS_D0+" pad="7"/>
+<connect gate="C" pin="8_TMDS_D0S" pad="8"/>
+<connect gate="C" pin="9_TMDS_D0-" pad="9"/>
+<connect gate="S1" pin="S" pad="P1"/>
+<connect gate="S2" pin="S" pad="P2"/>
+<connect gate="S3" pin="S" pad="P3"/>
+<connect gate="S4" pin="S" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
