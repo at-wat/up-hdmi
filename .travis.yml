@@ -6,4 +6,4 @@ install:
   - pip install cairosvg==1.0.22 eagle2svg gh-pr-comment
 
 script:
-  - ./tests/exec-test.sh
+  - /bin/bash ./tests/exec-test.sh
