@@ -1,9 +1,0 @@
-language: python
-python:
-  - 3.6
-
-install:
-  - pip install cairosvg==1.0.22 eagle2svg gh-pr-comment
-
-script:
-  - /bin/bash ./tests/exec-test.sh
